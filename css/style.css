@@ -54,7 +54,7 @@ body {
 
 li > .link:hover,
 li > .link:focus {
-    color: var(--oceancolor);
+    color: var(--iriscolor);
 }
 
 .contact-info {
@@ -96,7 +96,7 @@ li > .link:focus {
 
 .button:hover,
 .button:focus {
-    background-color: hotpink;
+    background-color: (var--iriscolor);
 }
 
 /* Section 2 */
