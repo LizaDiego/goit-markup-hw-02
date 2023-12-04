@@ -8,6 +8,7 @@
     --oceancolor: #2196f3;
     --whitecolor: white;
     --slatecolor:#434455;
+    --cloudcolor:#f4f4fd;
 
 }
 
@@ -26,103 +27,118 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iriscolor);
+    color: var(--navyblue);
 }
 
-/*.web-logo {
-    color: var(--iriscolor);
-}*/
-
-/* Navigation */
-
-.link {
-    text-decoration: none;
-}
 .studio-logo {
     color: var(--navyblue);
 }
 
-.studio-logo2 {
-    color: var(--whitecolor);
+.link {
+    color: var(--iriscolor);
+    text-decoration: none;
 }
 
-.navbar .pages {
+.list-item > .item {
     color: var(--navcolor);
     text-decoration: none;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 1.15;
-    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .list {
     list-style: none;
 }
 
-.navbar .pages:hover,
-.navbar .pages:focus,
-.navbar .pages.currentoption,
-.contact-info .info:hover,
-.contact-info .info:focus {
+li > .link:hover,
+li > .link:focus {
     color: var(--oceancolor);
 }
 
-.contact-info .info {
+.contact-info {
+    font-style: normal;
+}
+
+.contact-item > .info {
     color: var(--navcolor);
-    font-size: 15px;
-    line-height: 1.15;
-    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
+/*  Section 1 */
 .bg-section1 {
     background-color: var(--navyblue);
 }
 
 .h1-title {
     color: var(--whitecolor);
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 1.5;
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
 }
 
-.btn {
+.button {
     cursor: pointer;
     border-color: transparent;
     letter-spacing: 0.05em;
     font-family: inherit;
-}
-
-.btn.primary {
     background-color: var(--oceancolor);
     color: var(--whitecolor);
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
 }
 
-.btn.primary:hover,
-.btn.primary:focus {
+.button:hover,
+.button:focus {
     background-color: hotpink;
 }
 
-.desclist.titlelist {
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--slatecolor)
+/* Section 2 */
+
+.sectionlist {
+    list-style: none;
+}
+.titlelist {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue);
 }
 
+.desclist {
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+    color: var(--slatecolor)
+
+}
+
+/* Section 3 */
 .sectiontitle {
     text-align: center;
     color: var(--navyblue);
     font-size: 36px;
-    font-weight: 900;
-    line-height: 1.5;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
+/* Section 4 */
+
+.bg-section4 {
+    background-color: var(--cloudcolor);
+}
+
+.sectionlist .teamlist {
+    background-color: var(--whitecolor);
+}
 .teamname {
     color: var(--navyblue);
     font-weight: 900;
@@ -137,7 +153,13 @@ body {
     letter-spacing: 0.05em;
 }
 
-.footerbg {
+/* Footer */
+
+.studio-logo2 {
+    color: var(--cloudcolor);
+}
+
+.bg-footer {
     background-color: var(--navyblue);
 }
 
