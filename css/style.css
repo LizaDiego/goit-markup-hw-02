@@ -1,167 +1,152 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
 
 :root {
-    --iriscolor:#404bbf;
-    --navyblue: #2E2F42;
-    --navcolor: black;
-    --purplecolor: #4d5ae5;
-    --whitecolor: white;
-    --slatecolor:#434455;
-    --cloudcolor:#f4f4fd;
-
+  --iriscolor: #404bbf;
+  --navyblue: #2e2f42;
+  --navcolor: black;
+  --purplecolor: #4d5ae5;
+  --whitecolor: white;
+  --slatecolor: #434455;
+  --cloudcolor: #f4f4fd;
 }
 
 /* Index */
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--slatecolor);
-    background-color: var(--whitecolor);
+  font-family: 'Roboto', sans-serif;
+  color: var(--slatecolor);
+  background-color: var(--whitecolor);
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--navyblue);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--purplecolor);
 }
 
 .studio-logo {
-    color: var(--navyblue);
+  color: var(--navyblue);
 }
 
 .link {
-    color: var(--iriscolor);
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list-item > .item {
-    color: var(--slatecolor);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+  color: var(--slatecolor);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 li > .link:hover,
 li > .link:focus {
-    color: var(--iriscolor);
+  color: var(--iriscolor);
 }
 
 .contact-info {
-    font-style: normal;
+  font-style: normal;
 }
 
 .contact-item > .info {
-    color: var(--slatecolor);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
+  color: var(--slatecolor);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /*  Section 1 */
 .bg-sectionone {
-    background-color: var(--navyblue);
+  background-color: var(--navyblue);
 }
 
 .header {
-    color: var(--whitecolor);
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
+  color: var(--whitecolor);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .button {
-    cursor: pointer;
-    border-color: transparent;
-    letter-spacing: 0.05em;
-    font-family: inherit;
-    font-size: 16px;
-    background-color: var(--iriscolor);
-    color: var(--whitecolor);
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+  cursor: pointer;
+  border-color: transparent;
+  letter-spacing: 0.05em;
+  font-family: inherit;
+  font-size: 16px;
+  background-color: var(--purplecolor);
+  color: var(--whitecolor);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button:hover,
 .button:focus {
-    background-color: (var--iriscolor);
+  background-color: (var--iriscolor);
 }
 
 /* Section 2 */
 .titlelist {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navyblue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
 }
 
 .desclist {
-    font-size: 16px;
-    line-height: 1.5px;
-    letter-spacing: 0.02em;
-    color: var(--slatecolor)
-
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--slatecolor);
 }
 
 /* Section 3 */
 .sectiontitle {
-    text-align: center;
-    color: var(--navyblue);
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+  text-align: center;
+  color: var(--navyblue);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 /* Section 4 */
 
 .bg-section4 {
-    background-color: var(--cloudcolor);
+  background-color: var(--cloudcolor);
 }
 
-.sectionlist .teamlist {
-    background-color: var(--whitecolor);
-}
-.teamname {
-    color: var(--navyblue);
-    font-weight: 900;
+.titlelist {
+  background-color: var(--whitecolor);
 }
 
-.position {
-    color: var(--slatecolor);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.05em;
-}
+/* Reuse Section 2 <p> */
 
 /* Footer */
 
-.studio-logo2 {
-    color: var(--cloudcolor);
+.studio-ftlogo {
+  color: var(--cloudcolor);
 }
 
 .bg-footer {
-    background-color: var(--navyblue);
+  background-color: var(--navyblue);
 }
 
 .lastword {
-    color: white;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+  color: var(--cloudcolor);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
