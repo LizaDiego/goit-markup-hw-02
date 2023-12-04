@@ -94,7 +94,7 @@ li > .link:focus {
 
 .button:hover,
 .button:focus {
-  background-color: (var--iriscolor);
+  background-color: var(--iriscolor);
 }
 
 /* Section 2 */
@@ -108,7 +108,7 @@ li > .link:focus {
 
 .desclist {
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slatecolor);
 }
@@ -129,7 +129,7 @@ li > .link:focus {
   background-color: var(--cloudcolor);
 }
 
-.titlelist {
+.list .titlelist {
   background-color: var(--whitecolor);
 }
 
