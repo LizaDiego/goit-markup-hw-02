@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"); 
 
 :root {
-    --iriscolor:#4D5AE5;
+    --iriscolor:#404bbf;
     --navyblue: #2E2F42;
     --navcolor: black;
-    --oceancolor: #2196f3;
+    --purplecolor: #4d5ae5;
     --whitecolor: white;
     --slatecolor:#434455;
     --cloudcolor:#f4f4fd;
@@ -40,7 +40,7 @@ body {
 }
 
 .list-item > .item {
-    color: var(--navcolor);
+    color: var(--slatecolor);
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -62,7 +62,7 @@ li > .link:focus {
 }
 
 .contact-item > .info {
-    color: var(--navcolor);
+    color: var(--slatecolor);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -70,11 +70,11 @@ li > .link:focus {
 }
 
 /*  Section 1 */
-.bg-section1 {
+.bg-sectionone {
     background-color: var(--navyblue);
 }
 
-.h1-title {
+.header {
     color: var(--whitecolor);
     font-size: 56px;
     line-height: 1.07;
@@ -87,7 +87,8 @@ li > .link:focus {
     border-color: transparent;
     letter-spacing: 0.05em;
     font-family: inherit;
-    background-color: var(--oceancolor);
+    font-size: 16px;
+    background-color: var(--iriscolor);
     color: var(--whitecolor);
     font-weight: 500;
     line-height: 1.5;
@@ -100,10 +101,6 @@ li > .link:focus {
 }
 
 /* Section 2 */
-
-.sectionlist {
-    list-style: none;
-}
 .titlelist {
     font-weight: 500;
     font-size: 20px;
