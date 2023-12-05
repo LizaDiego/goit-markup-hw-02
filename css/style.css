@@ -10,7 +10,7 @@
   --cloudcolor: #f4f4fd;
 }
 
-/* Index */
+/* Studio */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -47,6 +47,7 @@ body {
 
 .list {
   list-style: none;
+  color: var(--navyblue);
 }
 
 li > .link:hover,
@@ -81,15 +82,13 @@ li > .link:focus {
 
 .button {
   cursor: pointer;
-  border-color: transparent;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   font-family: inherit;
   font-size: 16px;
   background-color: var(--purplecolor);
   color: var(--whitecolor);
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -98,7 +97,7 @@ li > .link:focus {
 }
 
 /* Section 2 */
-.titlelist {
+.desctitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -133,7 +132,7 @@ li > .link:focus {
   background-color: var(--whitecolor);
 }
 
-/* Reuse Section 2 <p> */
+/* Reused Section 2 */
 
 /* Footer */
 
@@ -149,4 +148,23 @@ li > .link:focus {
   color: var(--cloudcolor);
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/* Portfolio */
+
+.btn-menu {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iriscolor);
+  background-color: var(--cloudcolor);
+  cursor: pointer;
+}
+
+.btn-menu:hover,
+.btn-menu:focus {
+  color: var(--whitecolor);
+  background-color: var(--iriscolor);
 }
