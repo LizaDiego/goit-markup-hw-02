@@ -37,7 +37,7 @@ body {
 }
 
 .list-item > .item {
-  color: var(--slatecolor);
+  color: var(--navyblue);
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -86,7 +86,7 @@ li > .link:focus {
   font-family: inherit;
   font-size: 16px;
   background-color: var(--purplecolor);
-  color: var(--whitecolor);
+  color: var(--purplecolor);
   font-weight: 500;
   line-height: 1.5;
 }
@@ -124,11 +124,11 @@ li > .link:focus {
 
 /* Section 4 */
 
-.bg-section4 {
+.bg-sectionfour {
   background-color: var(--cloudcolor);
 }
 
-.list .titlelist {
+.list .teamname {
   background-color: var(--whitecolor);
 }
 
